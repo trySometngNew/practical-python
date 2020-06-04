@@ -18,8 +18,10 @@ while principal > 0:
     if bonus_duration > 0:
         principal = principal - bonus_per_month
         bonus_duration = bonus_duration - 1
+        total_paid = total_paid + bonus_per_month
     else:
         pass
-    total_paid = total_paid + payment + bonus_per_month
+    total_paid = total_paid + payment
+
 print('Total paid', total_paid)
 print('month', month)
