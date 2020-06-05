@@ -33,5 +33,5 @@ while principal > 0:
     total_paid = total_paid + payment
     print(month, total_paid, principal)
 
-print('Total paid', total_paid)
-print('month', month)
+print(f'Total paid amount is ${total_paid}')
+print(f'Number of months required to pay off loan is {month}')
