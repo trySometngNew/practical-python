@@ -127,3 +127,7 @@ Bug reports are appreciated and may be filed through the
 [issue tracker](https://github.com/dabeaz-course/practical-python/issues).
 Pull requests are not accepted except by invitation. Please file an issue first.
 
+# practical-python
+This is my solutions to course problems of dabeaz practical python course :
+
+https://dabeaz-course.github.io/practical-python/
