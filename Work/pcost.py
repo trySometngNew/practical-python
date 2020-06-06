@@ -1,6 +1,6 @@
 # pcost.py
 # 
-# Exercise 1.30: Turning a script into a function
+# Exercise 1.30: Catching and Handling Exceptions
 def portfolio_cost(filename):
     import gzip
     
