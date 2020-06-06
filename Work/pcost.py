@@ -1,9 +1,10 @@
 # pcost.py
 # 
-# Exercise 1.32: Using a library function
-def portfolio_cost(filename):
-    import csv
-    
+# Exercise 1.33: Reading from the command line
+import sys
+import csv
+
+def portfolio_cost(filename):    
     total_shares_cost = 0.0
 
     with open(filename, 'rt') as f:
@@ -28,6 +29,10 @@ def portfolio_cost(filename):
     print(f'Missing Data count which has been skipped over is {missing_data}')
     return total_shares_cost
 
+if len(sys.argv)==2:
+    filename = sys.argv[1]
+else:
+    filename = 'Data/portfolio.csv'
 
-cost = portfolio_cost('Data/portfolio.csv')
+cost = portfolio_cost(filename)
 print(cost)
